@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Icons_Socials_ic-social-linkedin" data-name="Icons/Socials/ic-social-linkedin" transform="translate(-3 -3)">
+    <g id="ic_social_linkedin" data-name="ic social linkedin" transform="translate(4 4)">
+      <path id="Vector" d="M9,2h8V0H9Zm8,0a7,7,0,0,1,7,7h2a9,9,0,0,0-9-9Zm7,7v8h2V9Zm0,8a7,7,0,0,1-7,7v2a9,9,0,0,0,9-9Zm-7,7H9v2h8ZM9,24a7,7,0,0,1-7-7H0a9,9,0,0,0,9,9ZM2,17V9H0v8ZM2,9A7,7,0,0,1,9,2V0A9,9,0,0,0,0,9Z" transform="translate(-1 -1)" fill="#beff01"/>
+      <path id="Vector-2" data-name="Vector" d="M2,1A1,1,0,0,0,0,1ZM0,9A1,1,0,0,0,2,9ZM0,1V9H2V1Z" transform="translate(5.173 9.52)" fill="#beff01"/>
+      <path id="Vector-3" data-name="Vector" d="M0,9A1,1,0,0,0,2,9ZM1,5H1ZM8,9a1,1,0,0,0,2,0ZM2,9V5H0V9ZM2,5a3,3,0,0,1,.879-2.121L1.464,1.464A5,5,0,0,0,0,5Zm.879-2.121A3,3,0,0,1,5,2V0A5,5,0,0,0,1.464,1.464ZM5,2a3,3,0,0,1,1.148.228L6.913.381A5,5,0,0,0,5,0Zm1.148.228a3,3,0,0,1,.973.65L8.536,1.464A5,5,0,0,0,6.913.381Zm.973.65a3,3,0,0,1,.65.973l1.848-.765A5,5,0,0,0,8.536,1.464Zm.65.973A3,3,0,0,1,8,5h2a5,5,0,0,0-.381-1.913ZM8,5V9h2V5Z" transform="translate(8.84 9.52)" fill="#beff01"/>
+      <path id="Vector-4" data-name="Vector" d="M0,1.147a1,1,0,0,0,2,0ZM2,1A1,1,0,0,0,0,1Zm0,.147V1H0v.147Z" transform="translate(5.173 5.373)" fill="#beff01"/>
+    </g>
+  </g>
+</svg>

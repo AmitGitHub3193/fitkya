@@ -1,0 +1,382 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --theme-color: #BEFF01;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--black-color);
+    font-family: 'Unbounded';
+    height: 100vh;
+    /* font-size: 14px;
+    color: var(--text-color); */
+}
+
+@font-face {
+    font-family: "Font Awesome 6 Brands";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/FontAwesome6Brands-Regular.woff") format("woff"),
+        url("../fonts/FontAwesome6Brands-Regular.woff2") format("woff2"),
+        url("../fonts/FontAwesome6Brands-Regular.eot") format("eot"),
+        url("../fonts/FontAwesome6Brands-Regular.ttf") format("ttf"),
+        url("../fonts/FontAwesome6Brands-Regular.svg") format("svg");
+}
+
+@font-face {
+    font-family: "Font Awesome 6 Free";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/FontAwesome6Free-Solid.woff") format("woff"),
+        url("../fonts/FontAwesome6Free-Solid.woff2") format("woff2"),
+        url("../fonts/FontAwesome6Free-Solid.eot") format("eot"),
+        url("../fonts/FontAwesome6Free-Solid.ttf") format("ttf"),
+        url("../fonts/FontAwesome6Free-Solid.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/Roboto-Regular.woff") format("woff"),
+        url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.eot") format("eot"),
+        url("../fonts/Roboto-Regular.ttf") format("ttf"),
+        url("../fonts/Roboto-Regular.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Unbounded-Bold.woff") format("woff"),
+        url("../fonts/Unbounded-Bold.woff2") format("woff2"),
+        url("../fonts/Unbounded-Bold.eot") format("eot"),
+        url("../fonts/Unbounded-Bold.ttf") format("ttf"),
+        url("../fonts/Unbounded-Bold.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Unbounded-Regular.woff") format("woff"),
+        url("../fonts/Unbounded-Regular.woff2") format("woff2"),
+        url("../fonts/Unbounded-Regular.eot") format("eot"),
+        url("../fonts/Unbounded-Regular.ttf") format("ttf"),
+        url("../fonts/Unbounded-Regular.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Unbounded-Light.woff") format("woff"),
+        url("../fonts/Unbounded-Light.woff2") format("woff2"),
+        url("../fonts/Unbounded-Light.eot") format("eot"),
+        url("../fonts/Unbounded-Light.ttf") format("ttf"),
+        url("../fonts/Unbounded-Light.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Unbounded';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Unbounded-Medium.woff") format("woff"),
+        url("../fonts/Unbounded-Medium.woff2") format("woff2"),
+        url("../fonts/Unbounded-Medium.eot") format("eot"),
+        url("../fonts/Unbounded-Medium.ttf") format("ttf"),
+        url("../fonts/Unbounded-Medium.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Poppins-SemiBold.woff") format("woff"),
+        url("../fonts/Poppins-SemiBold.woff2") format("woff2"),
+        url("../fonts/Poppins-SemiBold.eot") format("eot"),
+        url("../fonts/Poppins-SemiBold.ttf") format("ttf"),
+        url("../fonts/Poppins-SemiBold.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("../fonts/Poppins-Regular.woff") format("woff"),
+        url("../fonts/Poppins-Regular.woff2") format("woff2"),
+        url("../fonts/Poppins-Regular.eot") format("eot"),
+        url("../fonts/Poppins-Regular.ttf") format("ttf"),
+        url("../fonts/Poppins-Regular.svg") format("svg");
+}
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    font-family: 'Raleway';
+} */
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 43px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px 0;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+ul li,
+ol li {
+    margin: 0;
+    padding: 0px;
+}
+
+ul li a,
+ol li a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="subject"],
+input[type="search"],
+textarea,
+select {
+    width: 100%;
+    height: 40px;
+    resize: none;
+    outline: none;
+    transition: all 0.5s ease;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+} */
+
+/* button {
+    border: 0;
+    background-color: transparent;
+} */
+
+/* .links ul,
+.links ul li {
+    margin: 0;
+} */
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/** START OF : Header **/
+.header_main {
+    padding: 24px 0;
+}
+
+.header_main_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_main_inner_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    margin-right: 56px;
+}
+
+.header_logo_inner {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo_inner h4 {
+    margin: 0 0 0 7px;
+    font-weight: bold;
+    color: var(--theme-color);
+}
+
+.menu .menu_list {
+    display: flex;
+}
+
+.menu .menu_list .menu_item {
+    margin-right: 48px;
+}
+
+.menu .menu_list .menu_item:last-child {
+    margin-right: 0;
+}
+
+.menu .menu_list .menu_item .menu_link {
+    font-size: 11px;
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.header_main_inner_right {
+    display: flex;
+    align-items: center;
+}
+
+.header_main_inner_right .header_main_inner_right-icon {
+    display: inline-block;
+    color: var(--white-color);
+    margin-right: 20px;
+}
+
+.header_main_inner_right .header_main_inner_right-icon i {
+    font-size: 27px;
+}
+
+.header_main_inner_right .get-start_btn {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--white-color);
+    font-size: 13.4px;
+    font-weight: 500;
+}
+/** END OF : Header **/
+
+/** START OF : Footer **/
+.footer-main_top_inner_content {
+    text-align: center;
+}
+
+.footer-main_top_inner_content h2 {
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+.footer-main_top_inner_content h4 {
+    max-width: 276px;
+    margin: 14px auto 40px;
+    color: var(--white-color);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer-main_top_inner_social-icons {
+    margin-bottom: 160px;
+}
+
+.footer-main_top_inner_social-icons .footer-main_top-social ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-main_top_inner_social-icons .footer-main_top-social ul li {
+    margin-right: 36px;
+}
+
+.footer-main_bottom {
+    border-top: 1px solid #FFFFFF1A;
+}
+
+.footer-main_bottom {
+    padding: 78px 0;
+}
+
+.footer-main_bottom_inner_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-main_bottom_inner_menu ul li {
+    margin-right: 64px;
+}
+
+.footer-main_bottom_inner_menu ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-main_bottom_inner_menu ul li a {
+    color: var(--white-color);
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+}
+/** END OF : Footer **/
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1280px;
+    }
+}

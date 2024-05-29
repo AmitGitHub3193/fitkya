@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Icons_Socials_ic-social-facebook" data-name="Icons/Socials/ic-social-facebook" transform="translate(-3 -3)">
+    <g id="ic_social_facebook" data-name="ic social facebook" transform="translate(4 4)">
+      <path id="Vector" d="M9,2h8V0H9Zm8,0a7,7,0,0,1,7,7h2a9,9,0,0,0-9-9Zm7,7v8h2V9Zm0,8a7,7,0,0,1-7,7v2a9,9,0,0,0,9-9Zm-7,7H9v2h8ZM9,24a7,7,0,0,1-7-7H0a9,9,0,0,0,9,9ZM2,17V9H0v8ZM2,9A7,7,0,0,1,9,2V0A9,9,0,0,0,0,9Z" transform="translate(-1 -1)" fill="#beff01"/>
+      <path id="Vector-2" data-name="Vector" d="M0,19.667a1,1,0,0,0,2,0Zm2,0V6.333H0V19.667ZM2,6.333A4.333,4.333,0,0,1,3.269,3.269L1.855,1.855A6.333,6.333,0,0,0,0,6.333ZM3.269,3.269A4.333,4.333,0,0,1,6.333,2V0A6.333,6.333,0,0,0,1.855,1.855Z" transform="translate(11 4.187)" fill="#beff01"/>
+      <path id="Vector-3" data-name="Vector" d="M1,0A1,1,0,0,0,1,2ZM9,2A1,1,0,0,0,9,0ZM1,2H9V0H1Z" transform="translate(7.04 12.333)" fill="#beff01"/>
+    </g>
+  </g>
+</svg>

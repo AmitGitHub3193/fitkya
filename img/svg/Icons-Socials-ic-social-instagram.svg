@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="Icons_Socials_ic-social-instagram" data-name="Icons/Socials/ic-social-instagram" transform="translate(-3 -3)">
+    <g id="ic_social_instagram" data-name="ic social instagram" transform="translate(4 4)">
+      <path id="Vector" d="M9,2h8V0H9Zm8,0a7,7,0,0,1,7,7h2a9,9,0,0,0-9-9Zm7,7v8h2V9Zm0,8a7,7,0,0,1-7,7v2a9,9,0,0,0,9-9Zm-7,7H9v2h8ZM9,24a7,7,0,0,1-7-7H0a9,9,0,0,0,9,9ZM2,17V9H0v8ZM2,9A7,7,0,0,1,9,2V0A9,9,0,0,0,0,9Z" transform="translate(-1 -1)" fill="#beff01"/>
+      <path id="Vector-2" data-name="Vector" d="M10.667,6.333a4.333,4.333,0,0,1-4.333,4.333v2a6.333,6.333,0,0,0,6.333-6.333ZM6.333,10.667A4.333,4.333,0,0,1,2,6.333H0a6.333,6.333,0,0,0,6.333,6.333ZM2,6.333A4.333,4.333,0,0,1,6.333,2V0A6.333,6.333,0,0,0,0,6.333ZM6.333,2a4.333,4.333,0,0,1,4.333,4.333h2A6.333,6.333,0,0,0,6.333,0Z" transform="translate(5.667 5.667)" fill="#beff01"/>
+      <path id="Vector-3" data-name="Vector" d="M2.667,2.333a.333.333,0,0,1-.333.333v2A2.333,2.333,0,0,0,4.667,2.333Zm-.333.333A.333.333,0,0,1,2,2.333H0A2.333,2.333,0,0,0,2.333,4.667ZM2,2.333A.333.333,0,0,1,2.333,2V0A2.333,2.333,0,0,0,0,2.333ZM2.333,2a.333.333,0,0,1,.333.333h2A2.333,2.333,0,0,0,2.333,0Z" transform="translate(16.333 2.853)" fill="#beff01"/>
+    </g>
+  </g>
+</svg>
