@@ -487,6 +487,12 @@ section.sec-banner {
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
+
+    /* text-align: center; */
+}
+
+.swiper-workout .swiper-slide .column-center {
+    text-align: center;
 }
 
 .swiper-workout .swiper-slide .column-content {
@@ -528,6 +534,11 @@ section.sec-banner {
     right: 160px;
     bottom: 60px;
 } */
+
+
+
+
+
 /** END OF : Workout **/
 
 
