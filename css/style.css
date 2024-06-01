@@ -526,6 +526,7 @@ section.sec-banner {
 
 /** START OF : Service **/
 .service-tabs .nav-tabs {
+    /* display: block; */
     border-bottom: 0;
     justify-content: space-between;
     text-align: center;
@@ -786,6 +787,10 @@ section.sec-banner {
 
 
 /** START OF : Footer **/
+.footer-main_div {
+    display: none;
+}
+
 .footer-main {
     position: relative;
 }
@@ -999,7 +1004,122 @@ section.sec-banner {
     animation-name: rotateThird;
 } */
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .sec-banner .banner .banner_content h1 {
+        font-size: 40px;
+    }
+
+    .people_inner_content {
+        margin-bottom: 20px;
+    } 
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+    .service-tabs .nav-tabs .nav-item .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .service-tabs .nav-tabs .nav-item .nav-link span {
+        font-size: 12px;
+    }
+
+    .service-tab-content .service-tab-pane-content .row .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .service-tab-content .service-tab-pane-content .service-tab-content_inner h6 {
+        font-size: 15px;
+    }
+
+    .service-tab-content .service-tab-pane-content .service-tab-content_inner p {
+        font-size: 16px;
+    }
+
+    .health_content {
+        max-width: 100%;
+        margin-bottom: 48px;
+    }
+
+    .health_img {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .health_img .health_img-sec {
+        position: absolute;
+        top: -14px;
+        left: 50%;
+        z-index: -1;
+        transform: translateX(-50%);
+    }
+
+    .health_img .health_img-sec img {
+        max-width: inherit;
+    }
+
+    .people .people-heading {
+        font-size: 30px;
+    }
+
+    .sec-people .container .people .people_inner .row .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .people_inner_content {
+        margin-bottom: 20px;
+        padding: 18px 18px;
+    }
+
+    .footer-main_bottom_inner_menu ul li {
+        margin-right: 48px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 567px) {
+    .service-tabs .nav-tabs .nav-item {
+        min-width: 33.33%;
+        box-sizing: border-box;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .sec-banner .banner .banner_content h1 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+    .health_content h4 {
+        font-size: 26px;
+    }
+
+    .people .people-heading {
+        font-size: 30px;
+    }
+
+    .fitness .fitness_titles .fitness-title {
+        font-size: 46px;
+    }
+
+    .fitness .fitness_titles .fitness-title-sec {
+        font-size: 22px;
+    }
+
+
+}
+
 @media (min-width: 280px) and (max-width: 567px) {
+
+
     .banner_form_inner_content {
         border: 0;
         padding: 20px 0;
@@ -1045,6 +1165,7 @@ section.sec-banner {
 
     .health_img {
         padding: 0 16px;
+        margin-bottom: 40px;
     }
 
     .health_img .health_img-sec {
@@ -1052,6 +1173,70 @@ section.sec-banner {
         top: -14px;
         left: 0;
         z-index: -1;
+    }
+
+    .people_inner_content h6 {
+        font-size: 16px;
+    }
+
+    .footer-main_bottom_inner_menu ul {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-main_bottom_inner_menu ul li {
+        /* margin-right: 0; */
+        margin: 0 0 24px 0;
+    }
+
+    .footer-main_bottom_inner_menu ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer-main_div {
+        display: block !important;
+    }
+
+    .footer-main {
+        display: none;
+    }
+
+    .footer-main_top {
+        margin-top: 20rem;
+    }
+
+    .service-tabs .nav-tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch; 
+    }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    /* .sec-service .container .service .service-tabs .nav-tabs .row {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        flex-wrap: inherit;
+    }
+
+    .sec-service .container .service .service-tabs .nav-tabs .row .col-lg-2 {
+        flex: 0 0 auto;
+        width: 50%;
+    } */
+
+    /* .service-tabs .nav-tabs {
+        display: block;
+    }
+
+    .service-tabs .nav-tabs .nav-item {
+        width: 50%;
+    } */
+
+    .service-tabs .nav-tabs .nav-item {
+        min-width: 50%;
+        box-sizing: border-box;
     }
 }
 
@@ -1071,6 +1256,39 @@ section.sec-banner {
 
     .service-tab-content .service-tab-pane-content .service-tab-content_inner p {
         font-size: 13px;
+    }
+
+    .health_content h4 {
+        font-size: 20px;
+    }
+
+    .health_content p {
+        font-size: 14px;
+    }
+
+    .people .people-heading {
+        font-size: 25px;
+    }
+
+    .people_inner_content {
+        padding: 24px 24px;
+        margin-bottom: 20px;
+    }
+
+    .people_inner_content p {
+        font-size: 16px;
+    }
+
+    .fitness .fitness_titles .fitness-title {
+        font-size: 37px;
+    }
+
+    .fitness .fitness_titles .fitness-title-sec {
+        font-size: 16px;
+    }
+
+    .footer-main_top_inner_social-icons .footer-main_top-social ul li {
+        margin: 0 16px;
     }
 }
 
@@ -1138,4 +1356,10 @@ section.sec-banner {
     .header_main_inner_right {
         display: none;
     }
+}
+
+
+
+@media(min-width: 767px) {
+    
 }

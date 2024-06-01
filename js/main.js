@@ -77,7 +77,7 @@ $(document).ready(function () {
             crossFade: true
         },
         autoplay: {
-            delay: 2500, // Reduced for testing
+            delay: 2500000, // Reduced for testing
             disableOnInteraction: false,
         },
         // on: {
@@ -89,5 +89,6 @@ $(document).ready(function () {
         //     }
         // }
     });
+    
 
 });
