@@ -120,6 +120,15 @@ $(document).ready(function () {
                 // Add the unique class to the active slide
                 slides[activeIndex].classList.add(uniqueClasses[activeIndex]);
     
+                // Reset all transformations for images in all slides
+                slides.forEach(function(slide) {
+                    var images = slide.querySelectorAll('.asasas img');
+                    images.forEach(function(image) {
+                        image.style.transition = '';
+                        image.style.transform = '';
+                    });
+                });
+    
                 // Ensure that the array has positions for all slides
                 if (imagePositions[activeIndex]) {
                     var images = document.querySelectorAll('.swiper-slide-active .asasas img');
@@ -140,6 +149,7 @@ $(document).ready(function () {
             }
         }
     });
+    
     
     
 
