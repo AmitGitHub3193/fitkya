@@ -266,7 +266,7 @@ button {
 }
 
 .backgroup_footer {
-    background-image: url('../img/bg_image.png');
+    /* background-image: url('../img/bg_image.png');
     width: 100%;
     height: 480px;
     position: absolute;
@@ -277,7 +277,28 @@ button {
     background-size: cover;
     transform: scale(1.5);
     opacity: 0.3;
-    z-index: -1;
+    z-index: 1; */
+    
+    /* z-index: -1; */
+
+
+
+
+    background-image: url(../img/bg_image.png);
+    width: 100%;
+    /* height: 430px; */
+    height: 350px;
+    position: absolute;
+    /* bottom: -130px; */
+    /* bottom: 150px; */
+    bottom: 123px;
+    left: 240px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    transform: scale(1.7);
+    opacity: 0.3;
+    z-index: 1;
 }
 
 .mb_2 {
@@ -747,6 +768,7 @@ section.sec-banner {
 .sec-fitness {
     position: relative;
     /* padding: 5rem 0 20rem 0; */
+    /* padding: 5rem 0 10rem 0; */
     padding: 5rem 0 10rem 0;
     /* margin: 2rem 0 10rem 0; */
     margin-top: 2rem;
@@ -757,19 +779,64 @@ section.sec-banner {
     content: '';
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    /* height: 100%; */
+    height: 97%;
+    /* top: 0; */
+    top: 14px;
     left: 0;
-    background-image: url(../img/humanise_copy.png);
+    background-image: url('../img/fitness_01.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* opacity: 0.5; */
-    opacity: 0.3;
-    z-index: -1;
+    /* opacity: 0.3; */
+    /* opacity: 0.15; */
+    /* z-index: -1; */
 }
 
+.sec-fitness::after {
+    content: '';
+    position: absolute;
+    /* width: 100%; */
+    /* height: 100%; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../img/svg/workout-slider_02.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fitness {
+    position: relative;
+    z-index: 2;
     text-align: center;
 }
 
@@ -842,8 +909,11 @@ section.sec-banner {
 }
 
 .footer-main_top {
+    /* position: relative; */
     position: relative;
-    margin-top: 20rem;
+    /* margin-top: 20rem; */
+    margin: 5rem 0 10rem 0;
+    z-index: 9;
 }
 
 .footer-main_top::after {
@@ -894,7 +964,8 @@ section.sec-banner {
 }
 
 .footer-main_top_inner_social-icons .footer-main_top-social ul li {
-    margin-right: 36px;
+    /* margin-right: 36px; */
+    margin: 0 18px;
 }
 
 .footer-main_bottom {
@@ -902,7 +973,9 @@ section.sec-banner {
 }
 
 .footer-main_bottom {
+    position: relative;
     padding: 78px 0;
+    z-index: 9;
 }
 
 .footer-main_bottom_inner_menu ul {
