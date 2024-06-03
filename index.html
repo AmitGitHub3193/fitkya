@@ -55,7 +55,8 @@
         overflow: visible;
         width: 339px;
         height: 339px;
-        left: 32%;
+        /* left: 32%; */
+        left: 44%;
         top: 22%;
         z-index: 1;
     }
@@ -84,8 +85,11 @@
 
     .column_img_fir {
         position: absolute;
-        top: 20.50%;
-        left: 24.50%;
+        /* top: 20.50%;
+        left: 24.50%; */
+        top: 20%;
+        /* left: -10.5%; */
+        left: 6%;
         background: #242323 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
         border-radius: 15px;
@@ -96,7 +100,9 @@
 
     .column_img_thi {
         position: absolute;
-        right: -10%;
+        /* right: -10%; */
+        /* right: 0%; */
+        right: 10%;
         bottom: 15%;
         background: #242323 0% 0% no-repeat padding-box;
         box-shadow: 0px 3px 6px #00000029;
@@ -107,7 +113,8 @@
 
     .column_img_sec {
         position: absolute;
-        right: -12%;
+        /* right: -12%; */
+        right: 8%;
         top: 20%;
     }
 
@@ -125,7 +132,7 @@
         100% {left: 0px; top: 0px;}
     } */
 
-    .column_img {
+    /* .column_img {
         width: 100px;
         height: 100px;
         position: absolute;
@@ -176,7 +183,119 @@
         50%  {left: 200px; top: 200px;}
         75%  {left: 0px; top: 200px;}
         100% {left: 0px; top: 0px;}
-    }
+    } */
+
+   /* CSS file or <style> tag in HTML */
+
+@keyframes img1Anim1 {
+    0%  {left: 0px; top: 0px;}
+    100%  {left: 450px; top: 0px;}
+    /* 50%  {left: 400px; top: 400px;}
+    75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;} */
+}
+
+@keyframes img2Anim1 {
+    /* 0%  {left: 0px; top: 0px;}*/
+    0%  {left: 400px; top: 0px;}
+    100%  {left: 400px; top: 400px;}
+    /*75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;} */
+}
+
+@keyframes img3Anim1 {
+    /* 0%  {left: 0px; top: 0px;}
+    25%  {left: 400px; top: 0px;} */
+    /* 50%  {left: 400px; top: 400px;} */
+    0%  {left: 400px; top: 400px;}
+    100% {left: 0px; top: 0px;} 
+}
+
+.img1-class-1 {
+    animation: img1Anim1 1s forwards;
+}
+
+.img2-class-1 {
+    animation: img2Anim1 2s forwards;
+}
+
+.img3-class-1 {
+    animation: img3Anim1 3s forwards;
+}
+
+@keyframes img4Anim2 {
+    /* 0%  {left: 0px; top: 0px;} */
+    25%  {left: 400px; top: 0px;}
+    50%  {left: 400px; top: 400px;}
+    /*75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;} */
+}
+
+@keyframes img5Anim2 {
+    /* 0%  {left: 0px; top: 0px;} */
+    25%  {left: 400px; top: 0px;}
+    50%  {left: 400px; top: 400px;}
+    /* 75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;} */
+}
+
+@keyframes img6Anim2 {
+    /* 0%  {left: 0px; top: 0px;}*/
+    25%  {left: 400px; top: 0px;}
+    50%  {left: 400px; top: 400px;} 
+    /* 75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;} */
+}
+
+.img4-class-2 {
+    animation: img4Anim2 1s forwards;
+}
+
+.img5-class-2 {
+    animation: img5Anim2 2s forwards;
+}
+
+.img6-class-2 {
+    animation: img6Anim2 3s forwards;
+}
+
+@keyframes img7Anim3 {
+    /* 0%  {left: 0px; top: 0px;}
+    25%  {left: 400px; top: 0px;} */
+    /* 50%  {left: 400px; top: 400px;} */
+    75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes img8Anim3 {
+    /* 0%  {left: 0px; top: 0px;}
+    25%  {left: 400px; top: 0px;}
+    50%  {left: 400px; top: 400px;} */
+    75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes img9Anim3 {
+    /* 0%  {left: 0px; top: 0px;}
+    25%  {left: 400px; top: 0px;}
+    50%  {left: 400px; top: 400px;} */
+    75%  {left: 0px; top: 400px;}
+    100% {left: 0px; top: 0px;}
+}
+
+.img7-class-3 {
+    animation: img7Anim3 1s forwards;
+}
+
+.img8-class-3 {
+    animation: img8Anim3 2s forwards;
+}
+
+.img9-class-3 {
+    animation: img9Anim3 3s forwards;
+}
+
+
  
  </style>
 
@@ -448,9 +567,9 @@
                                                 </svg>
                                                 <img src="img/workout-slider_01.png" class="column_main-img" alt="">
                                                 <div class="asasas">
-                                                    <img src="img/Frame_427319707.png" id="img1" class="column_img column_img_fir slide1-img" alt="">
-                                                    <img src="img/Group_427318850.png" id="img2" class="column_img column_img_sec slide1-img" alt="">
-                                                    <img src="img/Frame_427319705.png" id="img3" class="column_img column_img_thi slide1-img" alt="">
+                                                    <img src="img/Frame_427319707.png" id="img1" class="column_img column_img_fir slide1-img img1-class-1" alt="">
+                                                    <img src="img/Group_427318850.png" id="img2" class="column_img column_img_sec slide1-img img2-class-1" alt="">
+                                                    <img src="img/Frame_427319705.png" id="img3" class="column_img column_img_thi slide1-img img3-class-1" alt="">
                                                 </div>
                                             </div>
                                         </div>

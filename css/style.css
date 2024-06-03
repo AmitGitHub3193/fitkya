@@ -963,7 +963,8 @@ section.sec-banner {
     width: 614px;
     height: 614px;
     top: 0;
-    left: 0;
+    /* left: 0; */
+    right: 0;
 }
 
 .column_img_fir {
