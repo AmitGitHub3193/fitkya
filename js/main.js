@@ -352,7 +352,7 @@ $(document).ready(function () {
             crossFade: true
         },
         autoplay: {
-            delay: 250000, // Adjust the delay as needed
+            delay: 2500, // Adjust the delay as needed
             disableOnInteraction: false,
         },
         on: {
