@@ -269,11 +269,48 @@ $(document).ready(function () {
 
 
 
+    // var uniqueClasses = [
+    //     'class-slide-1',
+    //     'class-slide-2',
+    //     'class-slide-3',
+    //     // Add more classes as needed for each slide
+    // ];
+    
+    // var swiper = new Swiper('.swiper-workout', {
+    //     effect: 'fade',
+    //     fadeEffect: {
+    //         crossFade: true
+    //     },
+    //     autoplay: {
+    //         delay: 2500, // Adjust the delay as needed
+    //         disableOnInteraction: false,
+    //     },
+    //     on: {
+    //         slideChange: function() {
+    //             var slides = swiper.slides;
+    //             var activeIndex = swiper.activeIndex;
+    
+    //             // Remove unique classes from all slides
+    //             slides.forEach(function(slide) {
+    //                 uniqueClasses.forEach(function(uniqueClass) {
+    //                     slide.classList.remove(uniqueClass);
+    //                 });
+    //             });
+    
+    //             // Add the unique class to the active slide
+    //             slides[activeIndex].classList.add(uniqueClasses[activeIndex]);
+    
+    //             // Optional: Log or perform other actions
+    //             console.log('Active slide index:', activeIndex);
+    //         }
+    //     }
+    // });
+
+
     var uniqueClasses = [
-        'class-slide-1',
-        'class-slide-2',
-        'class-slide-3',
-        // Add more classes as needed for each slide
+        ['class-slide-1', 'img1-class-1', 'img2-class-1', 'img3-class-1'], // Classes for slide 1 images
+        ['class-slide-2', 'img4-class-2', 'img5-class-2', 'img6-class-2'], // Classes for slide 2 images
+        ['class-slide-3', 'img7-class-3', 'img8-class-3', 'img9-class-3']  // Classes for slide 3 images
     ];
     
     var swiper = new Swiper('.swiper-workout', {
@@ -290,15 +327,23 @@ $(document).ready(function () {
                 var slides = swiper.slides;
                 var activeIndex = swiper.activeIndex;
     
-                // Remove unique classes from all slides
-                slides.forEach(function(slide) {
-                    uniqueClasses.forEach(function(uniqueClass) {
-                        slide.classList.remove(uniqueClass);
+                // Remove unique classes from all images
+                slides.forEach(function(slide, index) {
+                    var images = slide.querySelectorAll('img[id^="img"]');
+                    images.forEach(function(image, imgIndex) {
+                        if (uniqueClasses[index] && uniqueClasses[index][imgIndex + 1]) {
+                            image.classList.remove(uniqueClasses[index][imgIndex + 1]);
+                        }
                     });
                 });
     
-                // Add the unique class to the active slide
-                slides[activeIndex].classList.add(uniqueClasses[activeIndex]);
+                // Add unique classes to the images on the active slide
+                var activeSlideImages = slides[activeIndex].querySelectorAll('img[id^="img"]');
+                activeSlideImages.forEach(function(image, imgIndex) {
+                    if (uniqueClasses[activeIndex][imgIndex + 1]) {
+                        image.classList.add(uniqueClasses[activeIndex][imgIndex + 1]);
+                    }
+                });
     
                 // Optional: Log or perform other actions
                 console.log('Active slide index:', activeIndex);
