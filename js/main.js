@@ -11,16 +11,24 @@ $(document).ready(function () {
     });
     /** END OF : Hamburger **/
 
-    var swiper = new Swiper('.swiper-workout', {
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-        autoplay: {
-            delay: 2500000, // Reduced for testing
-            disableOnInteraction: false,
-        },
-    });
+    // var swiper = new Swiper('.swiper-workout', {
+    //     effect: 'fade',
+    //     fadeEffect: {
+    //         crossFade: true
+    //     },
+    //     autoplay: {
+    //         delay: 2500000, // Reduced for testing
+    //         disableOnInteraction: false,
+    //     },
+    // });
+
+
+
+
+
+
+
+
 
 
     let isDown = false;
@@ -48,6 +56,31 @@ $(document).ready(function () {
         $(this).scrollLeft(scrollLeft - walk);
     });
 
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // $('.nav-tabs a').on('click', function (e) {
+    //     $(this).siblings().removeClass('active'); // Remove active from other tabs
+    //     $(this).addClass('active');                // Add active to clicked tab
+    //     // Rest of your existing code to handle scrolling (unchanged)
+    // });
 
 
     // var uniqueClasses = [
@@ -319,7 +352,7 @@ $(document).ready(function () {
             crossFade: true
         },
         autoplay: {
-            delay: 2500, // Adjust the delay as needed
+            delay: 250000, // Adjust the delay as needed
             disableOnInteraction: false,
         },
         on: {
