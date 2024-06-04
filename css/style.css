@@ -517,6 +517,16 @@ section.sec-banner {
     font-weight: 700;
 }
 
+.swiper-workout .swiper-slide .column-center .column_main-img_02 {
+    left: 13%;
+    top: 56px;
+} 
+
+.swiper-workout .swiper-slide .column-center .column_main-img_03 {
+    left: 15.5%;
+    top: 56px;
+}
+
 /* .swiper-workout .swiper-slide .column .column_img_fir {
     position: absolute;
     top: 130px;
@@ -967,7 +977,7 @@ section.sec-banner {
     right: 0;
 }
 
-.column_img_fir {
+/* .column_img_fir {
     position: absolute;
     top: 0;
     left: 0;
@@ -983,7 +993,7 @@ section.sec-banner {
     position: absolute;
     right: 0;
     bottom: 0;
-}
+} */
 
 /* .rotate-90 {
     transform: rotate(90deg);

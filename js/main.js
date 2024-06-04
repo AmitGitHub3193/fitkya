@@ -318,10 +318,10 @@ $(document).ready(function () {
         fadeEffect: {
             crossFade: true
         },
-        // autoplay: {
-        //     delay: 2500, // Adjust the delay as needed
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 2500, // Adjust the delay as needed
+            disableOnInteraction: false,
+        },
         on: {
             slideChange: function() {
                 var slides = swiper.slides;
@@ -350,73 +350,4 @@ $(document).ready(function () {
             }
         }
     });
-    
-    
-    
-
-    // var uniqueClasses = [
-    //     'class-slide-1',
-    //     'class-slide-2',
-    //     'class-slide-3'
-    // ];
-    
-    // var swiper = new Swiper('.swiper-workout', {
-    //     effect: 'fade',
-    //     fadeEffect: {
-    //         crossFade: true
-    //     },
-    //     autoplay: {
-    //         delay: 2500, // Adjust the delay as needed
-    //         disableOnInteraction: false,
-    //     },
-    //     on: {
-    //         slideChange: function() {
-    //             var slides = swiper.slides;
-    //             var activeIndex = swiper.activeIndex;
-    
-    //             // Remove unique classes from all slides
-    //             slides.forEach(function(slide) {
-    //                 uniqueClasses.forEach(function(uniqueClass) {
-    //                     slide.classList.remove(uniqueClass);
-    //                 });
-    //             });
-    
-    //             // Add the unique class to the active slide
-    //             slides[activeIndex].classList.add(uniqueClasses[activeIndex]);
-    
-    //             // Rearrange the images in the active slide
-    //             var activeSlide = slides[activeIndex];
-    //             var images = activeSlide.querySelectorAll('img[id^="img"]');
-                
-    //             if (images.length === 3) { // Ensure there are exactly 3 images to swap
-    //                 images.forEach(function(img, index) {
-    //                     img.style.animationName = 'none'; // Reset animation
-    //                     img.offsetHeight; // Trigger reflow
-    //                     img.style.animationName = 'swap'; // Apply animation
-    //                 });
-    
-    //                 // Swap src attributes after animation
-    //                 setTimeout(function() {
-    //                     var src1 = images[0].src;
-    //                     var src2 = images[1].src;
-    //                     var src3 = images[2].src;
-    
-    //                     images[0].src = src2;
-    //                     images[1].src = src3;
-    //                     images[2].src = src1;
-    
-    //                     // Ensure the images are visible after swapping
-    //                     images.forEach(function(img) {
-    //                         img.classList.remove('hidden');
-    //                     });
-    //                 }, 1000); // Match this timeout to the animation duration
-    //             }
-    
-    //             // Optional: Log or perform other actions
-    //             console.log('Active slide index:', activeIndex);
-    //         }
-    //     }
-    // });
-    
-    
 });
